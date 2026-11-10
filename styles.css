@@ -1294,3 +1294,13 @@ strong { font-weight: 700; }
     transform: scale(1) !important;
   }
 }
+
+
+
+/* Integra las fotos de la flota con el fondo amarillo de la tarjeta */
+.fleet-card__truck {
+  object-fit: contain;
+  aspect-ratio: 340 / 140;
+  mix-blend-mode: multiply;
+  border-radius: 8px;
+}
